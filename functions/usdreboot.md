@@ -1,17 +1,17 @@
 # $reboot
-desc
+Возвращает перезапуск файла или бота
 ### Использование
 ```php
-$rebootnull
+$reboot
 ```
 
 ## Пример(ы)
 
 ```javascript
-bot.command({
-  name: '$reboot',
+module.exports = [{
+  name: 'reboot',
   code: `
-$rebootnull`
-// Возвращает: ...
-})
+$reboot[file.js]`
+// Возвращает: перезапуск файла
+}]
 ```
