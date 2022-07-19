@@ -1,22 +1,23 @@
 # $image
-desc
+Отправляет изображение
 ### Использование
 ```php
-$imageUsage Not Found
+$image[$userAvatar[$authorID]]
 ```
 
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
 |--------|-------------|------|----------|
-| Usage Not Found |  |  | Да |  
+| Индекс |  | цифра | Нет |
+| Ссылка |  | Ссылка на изображение | Да |
 ## Пример(ы)
 
 ```javascript
 bot.command({
   name: '$image',
   code: `
-$imageUsage Not Found`
-// Возвращает: ...
+$image[$userAvatar[$authorID]]`
+// Возвращает: Изображение на вашу аватарку
 })
 ```

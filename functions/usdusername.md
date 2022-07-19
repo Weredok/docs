@@ -1,5 +1,5 @@
 # $username
-desc
+Отправляет имя пользователя
 ### Использование
 ```php
 $username[userID?]
@@ -14,9 +14,9 @@ $username[userID?]
 
 ```javascript
 bot.command({
-  name: '$username',
+  name: 'username',
   code: `
-$username[userID?]`
-// Возвращает: ...
+$username`
+// Возвращает: имя пользователя который ввёл команду
 })
 ```

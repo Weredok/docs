@@ -1,17 +1,17 @@
 # $messageId
-desc
+Отправляет ID сообщение
 ### Использование
 ```php
-$messageIdnull
+$messageId
 ```
 
 ## Пример(ы)
 
 ```javascript
 bot.command({
-  name: '$messageId',
+  name: 'messageId',
   code: `
-$messageIdnull`
-// Возвращает: ...
+$messageId`
+// Возвращает: ID сообщение где была указана команда
 })
 ```
